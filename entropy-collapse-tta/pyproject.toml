@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entropy-collapse-tta"
+version = "0.1.0"
+description = "Dynamical analysis and stable updates for test-time entropy minimisation collapse under continual shift."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.65.0",
+    "pytest>=7.4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+]
+robustbench = [
+    "robustbench",
+    "imagecorruptions",
+]
+demo = [
+    "streamlit>=1.25.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

@@ -1,0 +1,45 @@
+# Default Experiment Configuration for Test-Time Adaptation
+experiment:
+  name: "tent_continual_stream"
+  seed: 42
+  device: "cuda" # Automatically falls back to cpu if unavailable
+  output_dir: "results"
+
+model:
+  architecture: "Standard" # e.g. Standard (WideResNet-28-10) from RobustBench
+  dataset: "cifar10"
+  adapt_bn_affine_only: true
+  learning_rate: 0.001
+  optimizer: "Adam"
+
+data:
+  stream_type: "cifar10_c" # cifar10_c, synthetic_mixture
+  batch_size: 64
+  num_workers: 2
+  corruptions:
+    - "gaussian_noise"
+    - "shot_noise"
+    - "impulse_noise"
+    - "defocus_blur"
+    - "glass_blur"
+    - "motion_blur"
+    - "zoom_blur"
+    - "snow"
+    - "frost"
+    - "fog"
+    - "brightness"
+    - "contrast"
+    - "elastic_transform"
+    - "pixelate"
+    - "jpeg_compression"
+  severity: 5
+  cycles: 3 # number of cycles to repeat stream for continual test
+
+adaptation:
+  method: "tent" # "source", "tent", "tent_im", "rdumb"
+  lambda_im: 1.0 # Weight for marginal entropy regularizer in tent_im
+  rdumb_reset_interval: 200 # Batches between parameter resets for rdumb
+
+collapse_detection:
+  threshold: 0.90
+  patience: 5

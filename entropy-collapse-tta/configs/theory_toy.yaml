@@ -1,0 +1,35 @@
+# Configuration for Theory Track Toy Model Experiments
+experiment:
+  name: "theory_toy_gradient_flow"
+  seed: 42
+  device: "cpu"
+  output_dir: "results"
+
+model:
+  type: "linear_softmax"
+  num_classes: 3
+  dim: 2
+  trainable_params: "bias_only" # or "weights_and_bias"
+
+data:
+  num_samples_per_class: 500
+  class_means_radius: 2.0 # separation of class centroids on unit circle / hypersphere
+  cluster_std: 1.0
+  balanced: true
+
+dynamics:
+  learning_rate: 0.05
+  num_steps: 1500
+  initial_bias_sweep:
+    min_bias: 0.0
+    max_bias: 4.0
+    num_points: 50
+  methods:
+    - "tent" # min E[H(p)]
+    - "tent_im" # min E[H(p)] - lambda * H(p_bar)
+  lambda_im: 1.0
+
+stability_analysis:
+  eta_sweep_min: 0.001
+  eta_sweep_max: 0.5
+  num_eta_steps: 100
