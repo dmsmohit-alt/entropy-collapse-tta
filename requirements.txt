@@ -1,0 +1,7 @@
+# Phase 0 dependencies only. Real-network and plotting dependencies are added
+# in the phase where they are first needed, so the environment stays auditable.
+numpy>=1.24,<3
+PyYAML>=6.0,<7
+torch>=2.2,<3
+matplotlib>=3.8,<4
+pytest>=8,<10

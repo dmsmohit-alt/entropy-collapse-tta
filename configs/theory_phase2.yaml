@@ -1,0 +1,29 @@
+# Phase 2 local-stability checks.
+# The script verifies the analytic gradients against autograd, checks the
+# symmetric-point Hessian against the derived (lambda - 1) / K prediction, and
+# simulates the exact reduced W=0 bias flow on both sides of lambda = 1.
+_base_: base.yaml
+experiment: theory_phase2
+seed: 0
+device: cpu
+
+stability:
+  num_classes: 3
+  dim: 2
+  num_samples: 6
+  lambda_values: [0.0, 0.5, 0.9, 1.0, 1.1, 2.0, 5.0]
+  verification_seeds: [0, 1, 2]
+  tolerance: 1.0e-9
+
+reduced:
+  lambda_values: [0.0, 0.5, 0.9, 1.0, 1.1, 2.0]
+  initial_epsilon: 0.01
+  perturbation: [1.0, -1.0, 0.0]
+  steps: 2000
+  learning_rate: 0.1
+
+step_size:
+  lambda: 2.0
+  learning_rates: [1.0, 3.0, 5.8, 6.2, 7.0]
+  initial_epsilon: 0.000001
+  steps: 1

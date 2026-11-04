@@ -1,0 +1,1847 @@
+{
+  "basin_summary": [
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9691111048062643,
+        "std": 0.004914069418266259
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985867977142334,
+        "std": 8.428526723057524e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3361111084620158,
+        "std": 0.0016777397803421205
+      },
+      "initial_bias": 0.0,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9691111246744791,
+        "std": 0.00467063360166502
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985864798227947,
+        "std": 7.8355363135681e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.335999995470047,
+        "std": 0.0016666650772094727
+      },
+      "initial_bias": 0.05,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9691111048062643,
+        "std": 0.004914069418266259
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985862414042156,
+        "std": 7.33339015693943e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3358888824780782,
+        "std": 0.0016777397803421205
+      },
+      "initial_bias": 0.1,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9692222277323405,
+        "std": 0.0048572074432778585
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985860029856365,
+        "std": 6.808857836124989e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.335999995470047,
+        "std": 0.001527521823880774
+      },
+      "initial_bias": 0.15,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9693333307902018,
+        "std": 0.004484555236784103
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985856850941975,
+        "std": 6.424411182709148e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33622222145398456,
+        "std": 0.0015752701629381306
+      },
+      "initial_bias": 0.2,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9693333307902018,
+        "std": 0.004484555236784103
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985853672027588,
+        "std": 6.212622747800533e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33622222145398456,
+        "std": 0.0015752701629381306
+      },
+      "initial_bias": 0.25,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9692222277323405,
+        "std": 0.004622813549012108
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985849698384602,
+        "std": 6.098732961956555e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633333444595337,
+        "std": 0.0017638359045457103
+      },
+      "initial_bias": 0.3,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9692222277323405,
+        "std": 0.004622813549012108
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985846122105916,
+        "std": 6.199265125922423e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633333444595337,
+        "std": 0.0017638359045457103
+      },
+      "initial_bias": 0.35,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9692222277323405,
+        "std": 0.004622813549012108
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985842148462932,
+        "std": 6.3889210116914025e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633333444595337,
+        "std": 0.0017638359045457103
+      },
+      "initial_bias": 0.4,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9694444338480631,
+        "std": 0.004764833458043308
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985838174819946,
+        "std": 6.823104868533223e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3364444474379222,
+        "std": 0.001644294934602592
+      },
+      "initial_bias": 0.45,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9693333307902018,
+        "std": 0.004582581730166338
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985833406448364,
+        "std": 7.306858501778581e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633334438006085,
+        "std": 0.001732045714480737
+      },
+      "initial_bias": 0.5,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9694444537162781,
+        "std": 0.004550134338086128
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985829035441081,
+        "std": 8.022823565099859e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3364444474379222,
+        "std": 0.001644294934602592
+      },
+      "initial_bias": 0.55,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9693333307902018,
+        "std": 0.004702263658565525
+      },
+      "final_marginal_entropy": {
+        "mean": 1.09858242670695,
+        "std": 8.75383719153726e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633333444595337,
+        "std": 0.0014529635614808282
+      },
+      "initial_bias": 0.6,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9694444537162781,
+        "std": 0.004550134338086128
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985819498697917,
+        "std": 9.67457627526354e-06
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33622222145398456,
+        "std": 0.001261973443432112
+      },
+      "initial_bias": 0.65,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9695555567741394,
+        "std": 0.00472972163802569
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985813935597737,
+        "std": 1.0529179198060149e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33622222145398456,
+        "std": 0.001261973443432112
+      },
+      "initial_bias": 0.7,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9696666598320007,
+        "std": 0.00458257522672489
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985808769861858,
+        "std": 1.160337772044828e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633333444595337,
+        "std": 0.0014529635614808282
+      },
+      "initial_bias": 0.75,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9696666598320007,
+        "std": 0.00458257522672489
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098580241203308,
+        "std": 1.2742017702121704e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633333444595337,
+        "std": 0.0014529635614808282
+      },
+      "initial_bias": 0.8,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9696666598320007,
+        "std": 0.00458257522672489
+      },
+      "final_marginal_entropy": {
+        "mean": 1.09857972462972,
+        "std": 1.3919609554101574e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33633333444595337,
+        "std": 0.0014529635614808282
+      },
+      "initial_bias": 0.85,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9696666598320007,
+        "std": 0.00458257522672489
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985790888468425,
+        "std": 1.5048884267381116e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33655556042989093,
+        "std": 0.001347143935653832
+      },
+      "initial_bias": 0.9,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9695555369059244,
+        "std": 0.004622813549012108
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985785325368245,
+        "std": 1.6293486854760718e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3364444474379222,
+        "std": 0.0013877721917617475
+      },
+      "initial_bias": 0.95,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9694444338480631,
+        "std": 0.00467063360166502
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098577857017517,
+        "std": 1.759821459149755e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33655556042989093,
+        "std": 0.001347143935653832
+      },
+      "initial_bias": 1.0,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9693333307902018,
+        "std": 0.004484555236784103
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985772212346394,
+        "std": 1.891349708125487e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33666666348775226,
+        "std": 0.001201854238396478
+      },
+      "initial_bias": 1.05,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9692222078641256,
+        "std": 0.0042990035660495605
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985764662424724,
+        "std": 2.0246052216589246e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33655556042989093,
+        "std": 0.001347143935653832
+      },
+      "initial_bias": 1.1,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9692222078641256,
+        "std": 0.0042990035660495605
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098575750986735,
+        "std": 2.1653583477682085e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33655556042989093,
+        "std": 0.001347143935653832
+      },
+      "initial_bias": 1.15,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9691111048062643,
+        "std": 0.004286049937904961
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985750754674275,
+        "std": 2.3070103331916768e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33666667342185974,
+        "std": 0.0012018418398927638
+      },
+      "initial_bias": 1.2,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9691111048062643,
+        "std": 0.004286049937904961
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985742807388306,
+        "std": 2.4616934773045142e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33666667342185974,
+        "std": 0.0012018418398927638
+      },
+      "initial_bias": 1.25,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9687777757644653,
+        "std": 0.004350393575988274
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985734065373738,
+        "std": 2.611264000242783e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33666667342185974,
+        "std": 0.0012018418398927638
+      },
+      "initial_bias": 1.3,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9685555696487427,
+        "std": 0.00422076944963215
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098572572072347,
+        "std": 2.7673335301316545e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33666666348775226,
+        "std": 0.0014529567243162693
+      },
+      "initial_bias": 1.35,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9685555696487427,
+        "std": 0.00422076944963215
+      },
+      "final_marginal_entropy": {
+        "mean": 1.09857173760732,
+        "std": 2.930326640944551e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33666666348775226,
+        "std": 0.0014529567243162693
+      },
+      "initial_bias": 1.4,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9685555497805277,
+        "std": 0.003906308493865371
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985709428787231,
+        "std": 3.094416910445369e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33677777647972107,
+        "std": 0.0015752649076943039
+      },
+      "initial_bias": 1.45,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9684444467226664,
+        "std": 0.004032266600913581
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985699892044067,
+        "std": 3.258690102776681e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888894716899,
+        "std": 0.0017105298588437337
+      },
+      "initial_bias": 1.5,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9683333237965902,
+        "std": 0.004096065154595604
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985690752665203,
+        "std": 3.440924742570436e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33700000246365863,
+        "std": 0.001763830272421186
+      },
+      "initial_bias": 1.55,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9682222008705139,
+        "std": 0.00422076944963215
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098568081855774,
+        "std": 3.612277523674729e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888894716899,
+        "std": 0.0016442878860708503
+      },
+      "initial_bias": 1.6,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9681110978126526,
+        "std": 0.004032300270759284
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985671281814575,
+        "std": 3.7966427621348374e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888894716899,
+        "std": 0.0016442878860708503
+      },
+      "initial_bias": 1.65,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9681111176808676,
+        "std": 0.004114120684883035
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985660552978516,
+        "std": 3.98146534912219e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888894716899,
+        "std": 0.0016442878860708503
+      },
+      "initial_bias": 1.7,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9681111176808676,
+        "std": 0.004114120684883035
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985650221506755,
+        "std": 4.172143478072093e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888894716899,
+        "std": 0.0016442878860708503
+      },
+      "initial_bias": 1.75,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.967888871828715,
+        "std": 0.003976777691645677
+      },
+      "final_marginal_entropy": {
+        "mean": 1.09856383005778,
+        "std": 4.36947716316147e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888894716899,
+        "std": 0.0019531542469326856
+      },
+      "initial_bias": 1.8,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.967888871828715,
+        "std": 0.003976777691645677
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985627969106038,
+        "std": 4.568101427334188e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888894716899,
+        "std": 0.0019531542469326856
+      },
+      "initial_bias": 1.85,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9677777687708536,
+        "std": 0.004114095733641158
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985616048177083,
+        "std": 4.7660066780106125e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33711111545562744,
+        "std": 0.002143035785193172
+      },
+      "initial_bias": 1.9,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9676666657129923,
+        "std": 0.004163311803028738
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985602935155232,
+        "std": 4.975889612045771e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33722221851348877,
+        "std": 0.002268946261184802
+      },
+      "initial_bias": 1.95,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9676666657129923,
+        "std": 0.004163311803028738
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098559061686198,
+        "std": 5.188238819234317e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33722221851348877,
+        "std": 0.002268946261184802
+      },
+      "initial_bias": 2.0,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9676666657129923,
+        "std": 0.004163311803028738
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098557710647583,
+        "std": 5.404968118655485e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33722221851348877,
+        "std": 0.002268946261184802
+      },
+      "initial_bias": 2.05,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9673333366711935,
+        "std": 0.004096065154595604
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098556359608968,
+        "std": 5.6295611451499495e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33711110552151996,
+        "std": 0.0024570347091331297
+      },
+      "initial_bias": 2.1,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9672222137451172,
+        "std": 0.00422076944963215
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985549290974934,
+        "std": 5.8478849765461e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888795375824,
+        "std": 0.002364860819012845
+      },
+      "initial_bias": 2.15,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9672222137451172,
+        "std": 0.00422076944963215
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098553458849589,
+        "std": 6.084595975256462e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888795375824,
+        "std": 0.002364860819012845
+      },
+      "initial_bias": 2.2,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9671111106872559,
+        "std": 0.004350393575988274
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985519488652546,
+        "std": 6.316296454171054e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3369999925295512,
+        "std": 0.002403696078259634
+      },
+      "initial_bias": 2.25,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9669999877611796,
+        "std": 0.004484555236784103
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985503196716309,
+        "std": 6.559858767881824e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888795375824,
+        "std": 0.002364860819012845
+      },
+      "initial_bias": 2.3,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9669999877611796,
+        "std": 0.004484555236784103
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985486507415771,
+        "std": 6.802151422584869e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3368888795375824,
+        "std": 0.002364860819012845
+      },
+      "initial_bias": 2.35,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9670000076293945,
+        "std": 0.004255738130923079
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985469023386638,
+        "std": 7.057616155443824e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3369999925295512,
+        "std": 0.0025166086836567706
+      },
+      "initial_bias": 2.4,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9667778015136719,
+        "std": 0.004550134338086128
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985450347264607,
+        "std": 7.31317982071947e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3369999925295512,
+        "std": 0.0025166086836567706
+      },
+      "initial_bias": 2.45,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9666666785875956,
+        "std": 0.004582581730166338
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985430876413982,
+        "std": 7.581957602133183e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33711110552151996,
+        "std": 0.0026736021435353396
+      },
+      "initial_bias": 2.5,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9664444526036581,
+        "std": 0.0042207592506170065
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098541021347046,
+        "std": 7.854399662319605e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33711110552151996,
+        "std": 0.0026736021435353396
+      },
+      "initial_bias": 2.55,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9663333296775818,
+        "std": 0.004371640601976491
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985389550526936,
+        "std": 8.126877107892935e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33722221851348877,
+        "std": 0.0026943013905927197
+      },
+      "initial_bias": 2.6,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9662222266197205,
+        "std": 0.004401191099965231
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985366503397624,
+        "std": 8.399386495130992e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3373333315054576,
+        "std": 0.0028480041133331834
+      },
+      "initial_bias": 2.65,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9661111235618591,
+        "std": 0.0038920532106423316
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985341866811116,
+        "std": 8.685526444906235e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3373333315054576,
+        "std": 0.003055056654540613
+      },
+      "initial_bias": 2.7,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9660000205039978,
+        "std": 0.003711846862392837
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985314846038818,
+        "std": 8.968144247145566e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33744444449742633,
+        "std": 0.0030971980704657975
+      },
+      "initial_bias": 2.75,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9660000006357828,
+        "std": 0.003929937787484059
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985286235809326,
+        "std": 9.264387346056084e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33766667048136395,
+        "std": 0.003055056654540613
+      },
+      "initial_bias": 2.8,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9657777746518453,
+        "std": 0.00389208554109932
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985255241394043,
+        "std": 9.564211150606101e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3378888964653015,
+        "std": 0.0029123021334058067
+      },
+      "initial_bias": 2.85,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9655555685361227,
+        "std": 0.003976801839226113
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985218286514282,
+        "std": 9.859667666892493e-05
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3378888964653015,
+        "std": 0.0029123021334058067
+      },
+      "initial_bias": 2.9,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9655555685361227,
+        "std": 0.003976801839226113
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985175768534343,
+        "std": 0.00010143928389350684
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3377777834733327,
+        "std": 0.0030971980704657975
+      },
+      "initial_bias": 2.95,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9653333425521851,
+        "std": 0.003929930204015521
+      },
+      "final_marginal_entropy": {
+        "mean": 1.0985122124354045,
+        "std": 0.00010411963006556724
+      },
+      "final_top_class_fraction": {
+        "mean": 0.33799999952316284,
+        "std": 0.0029627313293989735
+      },
+      "initial_bias": 3.0,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9651110967000326,
+        "std": 0.004114120684883035
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098503867785136,
+        "std": 0.00010574114852790657
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3383333384990692,
+        "std": 0.0029627313293989735
+      },
+      "initial_bias": 3.05,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.0,
+      "collapse_step": null,
+      "collapsed_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "final_accuracy": {
+        "mean": 0.9648888905843099,
+        "std": 0.004401164766603657
+      },
+      "final_marginal_entropy": {
+        "mean": 1.098466157913208,
+        "std": 0.00010697345082367794
+      },
+      "final_top_class_fraction": {
+        "mean": 0.3391111195087433,
+        "std": 0.002411399201606541
+      },
+      "initial_bias": 3.1,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.3333333333333333,
+      "collapse_step": {
+        "mean": 730.0,
+        "std": 0.0
+      },
+      "collapsed_by_seed": [
+        0,
+        0,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.644222229719162,
+        "std": 0.3152537490264279
+      },
+      "final_marginal_entropy": {
+        "mean": 0.5831932841489712,
+        "std": 0.5438810386084358
+      },
+      "final_top_class_fraction": {
+        "mean": 0.6721111039320627,
+        "std": 0.3295118208446845
+      },
+      "initial_bias": 3.15,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 0.6666666666666666,
+      "collapse_step": {
+        "mean": 550.0,
+        "std": 14.142135623730951
+      },
+      "collapsed_by_seed": [
+        1,
+        0,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.43433334430058795,
+        "std": 0.17493713335392003
+      },
+      "final_marginal_entropy": {
+        "mean": 0.22071342325458923,
+        "std": 0.35854521377610943
+      },
+      "final_top_class_fraction": {
+        "mean": 0.8928888837496439,
+        "std": 0.1855218954010331
+      },
+      "initial_bias": 3.2,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 506.6666666666667,
+        "std": 46.188021535170066
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.013226905837655067,
+        "std": 0.0007321683314584109
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.25,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 463.3333333333333,
+        "std": 23.09401076758503
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.012720060534775257,
+        "std": 0.000646316183997985
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.3,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 436.6666666666667,
+        "std": 11.547005383792515
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.012360106532772383,
+        "std": 0.0006158771798189947
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.35,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 416.6666666666667,
+        "std": 11.547005383792515
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.012059212351838747,
+        "std": 0.0005967280582628187
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.4,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 403.3333333333333,
+        "std": 5.773502691896258
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.011791254704197248,
+        "std": 0.0005822071950472379
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.45,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 390.0,
+        "std": 0.0
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.011544921745856604,
+        "std": 0.0005696735476772493
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.5,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 380.0,
+        "std": 0.0
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.011314090341329575,
+        "std": 0.0005585859015451841
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.55,
+      "n_seeds": 3
+    },
+    {
+      "collapse_rate": 1.0,
+      "collapse_step": {
+        "mean": 370.0,
+        "std": 0.0
+      },
+      "collapsed_by_seed": [
+        1,
+        1,
+        1
+      ],
+      "final_accuracy": {
+        "mean": 0.3333333432674408,
+        "std": 0.0
+      },
+      "final_marginal_entropy": {
+        "mean": 0.011095116225381693,
+        "std": 0.0005483868951730715
+      },
+      "final_top_class_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "initial_bias": 3.6,
+      "n_seeds": 3
+    }
+  ],
+  "collapse_criteria": {
+    "marginal_entropy_threshold": 0.1,
+    "persistence": 20,
+    "top_class_fraction_threshold": 0.95
+  },
+  "created_utc": "2026-11-04T18:10:52.183301+00:00",
+  "experiment": "theory_phase1",
+  "full_collapse_from": 3.25,
+  "initial_bias_grid": {
+    "count": 73,
+    "max": 3.6,
+    "min": 0.0,
+    "step": 0.05
+  },
+  "no_collapse_up_to": 3.1,
+  "runtime_seconds": 820.0246505999821,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "source": {
+    "accuracy": {
+      "mean": 0.9687777757644653,
+      "std": 0.004286071570386344
+    },
+    "entropy_gap": {
+      "mean": 0.6560329993565878,
+      "std": 0.00214914739570757
+    },
+    "marginal_entropy": {
+      "mean": 1.0986035267512004,
+      "std": 6.854620532168762e-06
+    },
+    "mean_max_probability": {
+      "mean": 0.8460953036944071,
+      "std": 0.0010671754463013278
+    },
+    "mean_predictive_entropy": {
+      "mean": 0.4425705373287201,
+      "std": 0.0021551701715893145
+    },
+    "top_class_fraction": {
+      "mean": 0.33588889241218567,
+      "std": 0.0005091674379213643
+    }
+  },
+  "threshold": {
+    "bracketing_interval": [
+      3.15,
+      3.2
+    ],
+    "definition": "midpoint between largest tested bias with collapse rate < 0.5 and smallest tested bias with collapse rate >= 0.5",
+    "half_width": 0.025000000000000133,
+    "midpoint": 3.175
+  },
+  "toy_setup": {
+    "collapse": {
+      "marginal_entropy_threshold": 0.1,
+      "persistence": 20,
+      "top_class_fraction_threshold": 0.95
+    },
+    "dim": 3,
+    "eval_every": 10,
+    "eval_per_class": 1000,
+    "initial_bias_class": 0,
+    "learning_rate": 0.03,
+    "num_classes": 3,
+    "separation": 3.0,
+    "steps": 2500,
+    "train_per_class": 600
+  },
+  "trajectories": [
+    {
+      "collapse_onset_step": null,
+      "collapse_step": null,
+      "final_accuracy": 0.9620000123977661,
+      "final_marginal_entropy": 1.0985347032546997,
+      "final_top_class_fraction": 0.33899998664855957,
+      "initial_bias": 3.0,
+      "path": "trajectories\\seed0_bias3.00.jsonl",
+      "seed": 0
+    },
+    {
+      "collapse_onset_step": 200,
+      "collapse_step": 390,
+      "final_accuracy": 0.3333333432674408,
+      "final_marginal_entropy": 0.012006986886262894,
+      "final_top_class_fraction": 1.0,
+      "initial_bias": 3.5,
+      "path": "trajectories\\seed0_bias3.50.jsonl",
+      "seed": 0
+    },
+    {
+      "collapse_onset_step": null,
+      "collapse_step": null,
+      "final_accuracy": 0.9643333554267883,
+      "final_marginal_entropy": 1.0983986854553223,
+      "final_top_class_fraction": 0.34033334255218506,
+      "initial_bias": 3.0,
+      "path": "trajectories\\seed1_bias3.00.jsonl",
+      "seed": 1
+    },
+    {
+      "collapse_onset_step": 200,
+      "collapse_step": 390,
+      "final_accuracy": 0.3333333432674408,
+      "final_marginal_entropy": 0.011719351634383202,
+      "final_top_class_fraction": 1.0,
+      "initial_bias": 3.5,
+      "path": "trajectories\\seed1_bias3.50.jsonl",
+      "seed": 1
+    },
+    {
+      "collapse_onset_step": null,
+      "collapse_step": null,
+      "final_accuracy": 0.9696666598320007,
+      "final_marginal_entropy": 1.0986032485961914,
+      "final_top_class_fraction": 0.3346666693687439,
+      "initial_bias": 3.0,
+      "path": "trajectories\\seed2_bias3.00.jsonl",
+      "seed": 2
+    },
+    {
+      "collapse_onset_step": 200,
+      "collapse_step": 390,
+      "final_accuracy": 0.3333333432674408,
+      "final_marginal_entropy": 0.010908426716923714,
+      "final_top_class_fraction": 1.0,
+      "initial_bias": 3.5,
+      "path": "trajectories\\seed2_bias3.50.jsonl",
+      "seed": 2
+    }
+  ]
+}

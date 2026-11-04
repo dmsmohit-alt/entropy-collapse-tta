@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "scripts/phase0_smoke.py",
+    "--config",
+    "configs/phase0_smoke.yaml"
+  ],
+  "config_hash": "a86b3b8b29626cafc5062c4c1f52a32388da95abff3e0d5b52b4ab2dd7100be7",
+  "created_utc": "2026-11-04T17:09:15.516068+00:00",
+  "experiment": "phase0_smoke",
+  "packages": {
+    "PyYAML": "6.0.3",
+    "numpy": "2.5.4",
+    "torch": "2.15.0"
+  },
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python_version": "3.14.5",
+  "run_id": "20261104T170915.516068Z_phase0_smoke_seed0_a86b3b8b",
+  "seed": 0
+}

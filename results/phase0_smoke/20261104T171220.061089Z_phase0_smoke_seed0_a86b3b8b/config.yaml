@@ -1,0 +1,8 @@
+version: 1
+experiment: phase0_smoke
+seed: 0
+device: cpu
+output_dir: results
+logging:
+  level: INFO
+  jsonl: true

@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "scripts/run_stability.py",
+    "--config",
+    "configs/theory_phase2.yaml"
+  ],
+  "config_hash": "8f8671602f9d35395f99e49b77ae967b5969b64d1ff70ce290ee76403a5a151f",
+  "created_utc": "2026-11-04T18:40:19.166152+00:00",
+  "experiment": "theory_phase2",
+  "packages": {
+    "PyYAML": "6.0.3",
+    "numpy": "2.5.4",
+    "torch": "2.9.1+cu126"
+  },
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python_version": "3.14.5",
+  "run_id": "20261104T184019.166152Z_theory_phase2_seed0_8f867160",
+  "seed": 0
+}

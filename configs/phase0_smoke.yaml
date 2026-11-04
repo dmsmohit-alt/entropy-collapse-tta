@@ -1,0 +1,5 @@
+# CPU-safe wiring check. This is not a scientific experiment.
+_base_: base.yaml
+experiment: phase0_smoke
+seed: 0
+device: cpu

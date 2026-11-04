@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "scripts/run_theory.py",
+    "--config",
+    "configs/theory_phase1.yaml"
+  ],
+  "config_hash": "4f7a72f03339d396c5508d55ec9ca152715db57633fc3872a6d5b39f5f038d12",
+  "created_utc": "2026-11-04T17:31:54.734687+00:00",
+  "experiment": "theory_phase1",
+  "packages": {
+    "PyYAML": "6.0.3",
+    "numpy": "2.5.4",
+    "torch": "2.15.0"
+  },
+  "platform": "Windows-11-10.0.22631-SP0",
+  "python_version": "3.14.5",
+  "run_id": "20261104T173154.734687Z_theory_phase1_seed0_4f7a72f0",
+  "seed": 0
+}

@@ -1,0 +1,10 @@
+# Defaults shared by every experiment. Child configs may override any value
+# with `_base_: base.yaml` and a nested mapping.
+version: 1
+experiment: unnamed
+seed: 0
+device: auto
+output_dir: results
+logging:
+  level: INFO
+  jsonl: true

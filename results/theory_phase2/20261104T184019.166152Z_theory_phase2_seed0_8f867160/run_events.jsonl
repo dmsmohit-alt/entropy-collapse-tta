@@ -1,0 +1,2 @@
+{"event":"start","config_hash":"8f8671602f9d35395f99e49b77ae967b5969b64d1ff70ce290ee76403a5a151f","stability_spec":{"num_classes":3,"dim":2,"num_samples":6,"lambda_values":[0.0,0.5,0.9,1.0,1.1,2.0,5.0]},"tolerance":1e-09,"timestamp_utc":"2026-11-04T18:40:19.230375+00:00"}
+{"event":"complete","runtime_seconds":1.5223888999898918,"gradient_within_tolerance":true,"symmetric_within_tolerance":true,"summary_path":"summary.json","timestamp_utc":"2026-11-04T18:40:20.754203+00:00"}

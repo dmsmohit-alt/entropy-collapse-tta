@@ -1,0 +1,33 @@
+# Phase 1 toy-model experiment.
+# Both W and b are adapted; W starts at the class-prototype matrix and b starts
+# with a bias towards class 0.  The bias grid locates the empirical basin
+# boundary.  This config is saved inside every run directory.
+_base_: base.yaml
+experiment: theory_phase1
+seed: 0
+device: cpu
+
+toy:
+  num_classes: 3
+  dim: 3
+  separation: 3.0
+  train_per_class: 600
+  eval_per_class: 1000
+  steps: 2500
+  learning_rate: 0.03
+  eval_every: 10
+  initial_bias_class: 0
+  collapse:
+    marginal_entropy: 0.10
+    top_class_fraction: 0.95
+    persistence: 20
+
+basin:
+  start: 0.0
+  stop: 3.6
+  step: 0.05
+  seeds: [0, 1, 2]
+
+trajectory:
+  biases: [3.0, 3.5]
+  seeds: [0, 1, 2]

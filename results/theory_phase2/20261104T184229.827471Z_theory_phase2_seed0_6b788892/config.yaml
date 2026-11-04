@@ -1,0 +1,50 @@
+version: 1
+experiment: theory_phase2
+seed: 0
+device: cpu
+output_dir: results
+logging:
+  level: INFO
+  jsonl: true
+stability:
+  num_classes: 3
+  dim: 2
+  num_samples: 6
+  lambda_values:
+  - 0.0
+  - 0.5
+  - 0.9
+  - 1.0
+  - 1.1
+  - 2.0
+  - 5.0
+  verification_seeds:
+  - 0
+  - 1
+  - 2
+  tolerance: 1.0e-09
+reduced:
+  lambda_values:
+  - 0.0
+  - 0.5
+  - 0.9
+  - 1.0
+  - 1.1
+  - 2.0
+  initial_epsilon: 0.01
+  perturbation:
+  - 1.0
+  - -1.0
+  - 0.0
+  steps: 2000
+  learning_rate: 0.1
+step_size:
+  lambda: 2.0
+  learning_rates:
+  - 1.0
+  - 3.0
+  - 5.8
+  - 6.2
+  - 7.0
+  initial_epsilon: 1.0e-06
+  steps: 1

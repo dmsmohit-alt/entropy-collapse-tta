@@ -1,0 +1,31 @@
+{
+  "source_rows": [
+    {
+      "accuracy": 0.965666651725769,
+      "entropy_gap": 0.6537061929702759,
+      "marginal_entropy": 1.0986113548278809,
+      "mean_max_probability": 0.8448643684387207,
+      "mean_predictive_entropy": 0.44490519165992737,
+      "seed": 0,
+      "top_class_fraction": 0.33633333444595337
+    },
+    {
+      "accuracy": 0.9670000076293945,
+      "entropy_gap": 0.657943606376648,
+      "marginal_entropy": 1.0986006259918213,
+      "mean_max_probability": 0.8466611504554749,
+      "mean_predictive_entropy": 0.44065701961517334,
+      "seed": 1,
+      "top_class_fraction": 0.335999995470047
+    },
+    {
+      "accuracy": 0.9736666679382324,
+      "entropy_gap": 0.6564491987228394,
+      "marginal_entropy": 1.098598599433899,
+      "mean_max_probability": 0.8467603921890259,
+      "mean_predictive_entropy": 0.44214940071105957,
+      "seed": 2,
+      "top_class_fraction": 0.33533334732055664
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entropy-collapse-tta"
+version = "0.1.0"
+description = "Dynamical analysis of entropy-minimisation collapse in test-time adaptation."
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+dependencies = [
+    "numpy>=1.24,<3",
+    "PyYAML>=6.0,<7",
+    "torch>=2.2,<3",
+    "matplotlib>=3.8,<4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<10",
+    "pytest-cov>=5,<8",
+]
+analysis = [
+    "pandas>=2.1,<4",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["theory*", "data*", "models*", "tta*", "metrics*", "utils*"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.coverage.run]
+source = ["src"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

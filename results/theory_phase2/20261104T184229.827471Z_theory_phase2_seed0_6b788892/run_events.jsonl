@@ -1,0 +1,2 @@
+{"event":"start","config_hash":"6b7888927740dcda7f39a3bc24e1a6281ee1b1ba310e11bb8c48737892518c7e","stability_spec":{"num_classes":3,"dim":2,"num_samples":6,"lambda_values":[0.0,0.5,0.9,1.0,1.1,2.0,5.0]},"verification_seeds":[0,1,2],"tolerance":1e-09,"timestamp_utc":"2026-11-04T18:42:29.893584+00:00"}
+{"event":"complete","runtime_seconds":1.7815564000047743,"gradient_within_tolerance":true,"symmetric_within_tolerance":true,"summary_path":"summary.json","timestamp_utc":"2026-11-04T18:42:31.675390+00:00"}
