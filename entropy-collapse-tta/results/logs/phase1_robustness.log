@@ -1,0 +1,100 @@
+[2026-11-04 14:11:53] [INFO] phase1_robustness: ============================================================
+[2026-11-04 14:11:53] [INFO] phase1_robustness: Starting Phase 1 Robustness & Dynamical Sensitivity Suite
+[2026-11-04 14:11:53] [INFO] phase1_robustness: ============================================================
+[2026-11-04 14:11:53] [INFO] phase1_robustness: 
+--- Experiment 1: Horizon Sensitivity ---
+[2026-11-04 14:11:53] [INFO] phase1_robustness: Evaluating horizon num_steps = 500 (eta=0.05, T_flow=25.0)...
+[2026-11-04 14:12:01] [INFO] phase1_robustness: Horizon   500 steps -> Critical delta* = 0.8340 +/- 0.0493 (ddof=1)
+[2026-11-04 14:12:01] [INFO] phase1_robustness: Evaluating horizon num_steps = 2000 (eta=0.05, T_flow=100.0)...
+[2026-11-04 14:12:33] [INFO] phase1_robustness: Horizon  2000 steps -> Critical delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 14:12:33] [INFO] phase1_robustness: Evaluating horizon num_steps = 10000 (eta=0.05, T_flow=500.0)...
+[2026-11-04 19:12:29] [INFO] phase1_robustness: ============================================================
+[2026-11-04 19:12:29] [INFO] phase1_robustness: Starting Phase 1 Robustness & Dynamical Sensitivity Suite
+[2026-11-04 19:12:29] [INFO] phase1_robustness: ============================================================
+[2026-11-04 19:12:29] [INFO] phase1_robustness: 
+--- Experiment 1: Horizon Sensitivity ---
+[2026-11-04 19:12:29] [INFO] phase1_robustness: Evaluating horizon num_steps = 500 (eta=0.05, T_flow=25.0)...
+[2026-11-04 19:12:37] [INFO] phase1_robustness: Horizon   500 steps -> Critical delta* = 0.8340 +/- 0.0493 (ddof=1)
+[2026-11-04 19:12:37] [INFO] phase1_robustness: Evaluating horizon num_steps = 2000 (eta=0.05, T_flow=100.0)...
+[2026-11-04 19:12:51] [INFO] phase1_robustness: Horizon  2000 steps -> Critical delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:12:51] [INFO] phase1_robustness: Evaluating horizon num_steps = 10000 (eta=0.05, T_flow=500.0)...
+[2026-11-04 19:13:08] [INFO] phase1_robustness: Horizon 10000 steps -> Critical delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:13:08] [INFO] phase1_robustness: Evaluating horizon num_steps = 50000 (eta=0.05, T_flow=2500.0)...
+[2026-11-04 19:13:45] [INFO] phase1_robustness: Horizon 50000 steps -> Critical delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:13:47] [INFO] phase1_robustness: Saved horizon sensitivity plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_horizon_sensitivity.png
+[2026-11-04 19:13:47] [INFO] phase1_robustness: 
+--- Experiment 2: Flow-Time Invariance Check ---
+[2026-11-04 19:13:47] [INFO] phase1_robustness: Checking invariance at continuous flow-time T_flow = 25.0:
+[2026-11-04 19:14:55] [INFO] phase1_robustness:   T_flow= 25.0 | eta=0.01 (steps= 2500) -> delta* = 0.8324 +/- 0.0487
+[2026-11-04 19:15:02] [INFO] phase1_robustness:   T_flow= 25.0 | eta=0.05 (steps=  500) -> delta* = 0.8340 +/- 0.0493
+[2026-11-04 19:15:04] [INFO] phase1_robustness:   T_flow= 25.0 | eta=0.20 (steps=  125) -> delta* = 0.8387 +/- 0.0505
+[2026-11-04 19:15:04] [INFO] phase1_robustness: Checking invariance at continuous flow-time T_flow = 100.0:
+[2026-11-04 19:16:27] [INFO] phase1_robustness:   T_flow=100.0 | eta=0.01 (steps=10000) -> delta* = 0.0020 +/- 0.0000
+[2026-11-04 19:16:42] [INFO] phase1_robustness:   T_flow=100.0 | eta=0.05 (steps= 2000) -> delta* = 0.0020 +/- 0.0000
+[2026-11-04 19:16:46] [INFO] phase1_robustness:   T_flow=100.0 | eta=0.20 (steps=  500) -> delta* = 0.0020 +/- 0.0000
+[2026-11-04 19:16:46] [INFO] phase1_robustness: Saved flow-time invariance plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_flow_time_check.png
+[2026-11-04 19:16:46] [INFO] phase1_robustness: 
+--- Experiment 3: Convergence & Gradient Norm Dynamics ---
+[2026-11-04 19:16:50] [INFO] phase1_robustness: delta= 0.0 | Final ||grad_b||=2.32e-03 | Collapsed=True  | Final H(p_bar)=0.0026
+[2026-11-04 19:16:53] [INFO] phase1_robustness: delta= 0.3 | Final ||grad_b||=2.15e-03 | Collapsed=True  | Final H(p_bar)=0.0024
+[2026-11-04 19:16:56] [INFO] phase1_robustness: delta= 0.6 | Final ||grad_b||=2.11e-03 | Collapsed=True  | Final H(p_bar)=0.0024
+[2026-11-04 19:16:59] [INFO] phase1_robustness: delta= 0.9 | Final ||grad_b||=2.09e-03 | Collapsed=True  | Final H(p_bar)=0.0024
+[2026-11-04 19:17:03] [INFO] phase1_robustness: delta= 1.2 | Final ||grad_b||=2.08e-03 | Collapsed=True  | Final H(p_bar)=0.0023
+[2026-11-04 19:17:06] [INFO] phase1_robustness: delta= 1.8 | Final ||grad_b||=2.06e-03 | Collapsed=True  | Final H(p_bar)=0.0023
+[2026-11-04 19:17:07] [INFO] phase1_robustness: Saved gradient norm convergence plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_gradient_norm_convergence.png
+[2026-11-04 19:17:07] [INFO] phase1_robustness: 
+--- Experiment 4: Collapse Definition Robustness ---
+[2026-11-04 19:17:19] [INFO] phase1_robustness: Def A: Top-Class Frac $\ge 0.90$                   -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:17:34] [INFO] phase1_robustness: Def B: $H(\bar{p}) < 0.3 \ln K$                    -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:17:53] [INFO] phase1_robustness: Def C: $H(\bar{p}) < 0.1 \ln K$                    -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:18:08] [INFO] phase1_robustness: Standard: Top-Frac $\ge 0.90$ AND $H(\bar{p}) < 0.3 \ln K$ -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:18:09] [INFO] phase1_robustness: Saved definition robustness plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_definition_robustness.png
+[2026-11-04 19:18:09] [INFO] phase1_robustness: Saved robustness summary JSON to: d:\mlproject\entropy-collapse-tta\results\logs\phase1_robustness_summary.json
+[2026-11-04 19:18:09] [INFO] phase1_robustness: All robustness checks completed successfully!
+[2026-11-04 19:19:50] [INFO] phase1_robustness: ============================================================
+[2026-11-04 19:19:50] [INFO] phase1_robustness: Starting Phase 1 Robustness & Dynamical Sensitivity Suite
+[2026-11-04 19:19:50] [INFO] phase1_robustness: ============================================================
+[2026-11-04 19:19:50] [INFO] phase1_robustness: 
+--- Experiment 1: Horizon Sensitivity ---
+[2026-11-04 19:19:50] [INFO] phase1_robustness: Evaluating horizon num_steps = 500 (eta=0.05, T_flow=25.0)...
+[2026-11-04 19:19:58] [INFO] phase1_robustness: Horizon   500 steps -> Critical delta* = 0.8340 +/- 0.0493 (ddof=1)
+[2026-11-04 19:19:58] [INFO] phase1_robustness: Evaluating horizon num_steps = 2000 (eta=0.05, T_flow=100.0)...
+[2026-11-04 19:20:13] [INFO] phase1_robustness: Horizon  2000 steps -> Critical delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:20:13] [INFO] phase1_robustness: Evaluating horizon num_steps = 10000 (eta=0.05, T_flow=500.0)...
+[2026-11-04 19:20:31] [INFO] phase1_robustness: Horizon 10000 steps -> Critical delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:20:31] [INFO] phase1_robustness: Evaluating horizon num_steps = 50000 (eta=0.05, T_flow=2500.0)...
+[2026-11-04 19:21:11] [INFO] phase1_robustness: Horizon 50000 steps -> Critical delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:21:11] [INFO] phase1_robustness: Saved horizon sensitivity plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_horizon_sensitivity.png
+[2026-11-04 19:21:11] [INFO] phase1_robustness: 
+--- Experiment 2: Flow-Time Invariance Check ---
+[2026-11-04 19:21:11] [INFO] phase1_robustness: Checking invariance at continuous flow-time T_flow = 25.0:
+[2026-11-04 19:21:48] [INFO] phase1_robustness:   T_flow= 25.0 | eta=0.01 (steps= 2500) -> delta* = 0.8324 +/- 0.0487
+[2026-11-04 19:21:56] [INFO] phase1_robustness:   T_flow= 25.0 | eta=0.05 (steps=  500) -> delta* = 0.8340 +/- 0.0493
+[2026-11-04 19:21:58] [INFO] phase1_robustness:   T_flow= 25.0 | eta=0.20 (steps=  125) -> delta* = 0.8387 +/- 0.0505
+[2026-11-04 19:21:58] [INFO] phase1_robustness: Checking invariance at continuous flow-time T_flow = 100.0:
+[2026-11-04 19:23:12] [INFO] phase1_robustness:   T_flow=100.0 | eta=0.01 (steps=10000) -> delta* = 0.0020 +/- 0.0000
+[2026-11-04 19:23:28] [INFO] phase1_robustness:   T_flow=100.0 | eta=0.05 (steps= 2000) -> delta* = 0.0020 +/- 0.0000
+[2026-11-04 19:23:31] [INFO] phase1_robustness:   T_flow=100.0 | eta=0.20 (steps=  500) -> delta* = 0.0020 +/- 0.0000
+[2026-11-04 19:23:32] [INFO] phase1_robustness: Saved flow-time invariance plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_flow_time_check.png
+[2026-11-04 19:23:32] [INFO] phase1_robustness: 
+--- Experiment 3: Convergence & Gradient Norm Dynamics ---
+[2026-11-04 19:23:36] [INFO] phase1_robustness: delta= 0.0 | Final ||grad_b||=2.32e-03 | Collapsed=True  | Final H(p_bar)=0.0026
+[2026-11-04 19:23:45] [INFO] phase1_robustness: delta= 0.3 | Final ||grad_b||=2.15e-03 | Collapsed=True  | Final H(p_bar)=0.0024
+[2026-11-04 19:23:53] [INFO] phase1_robustness: delta= 0.6 | Final ||grad_b||=2.11e-03 | Collapsed=True  | Final H(p_bar)=0.0024
+[2026-11-04 19:24:01] [INFO] phase1_robustness: delta= 0.9 | Final ||grad_b||=2.09e-03 | Collapsed=True  | Final H(p_bar)=0.0024
+[2026-11-04 19:24:10] [INFO] phase1_robustness: delta= 1.2 | Final ||grad_b||=2.08e-03 | Collapsed=True  | Final H(p_bar)=0.0023
+[2026-11-04 19:24:18] [INFO] phase1_robustness: delta= 1.8 | Final ||grad_b||=2.06e-03 | Collapsed=True  | Final H(p_bar)=0.0023
+[2026-11-04 19:24:20] [INFO] phase1_robustness: Saved gradient norm convergence plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_gradient_norm_convergence.png
+[2026-11-04 19:24:20] [INFO] phase1_robustness: 
+--- Experiment 4: Collapse Definition Robustness ---
+[2026-11-04 19:24:27] [INFO] phase1_robustness: Def A: Top-Class $\ge 0.90$                   (T=500)  -> delta* = 0.4816 +/- 0.0544 (ddof=1)
+[2026-11-04 19:24:40] [INFO] phase1_robustness: Def A: Top-Class $\ge 0.90$                   (T=2000) -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:24:49] [INFO] phase1_robustness: Def B: $H(\bar{p}) < 0.3 \ln K$               (T=500)  -> delta* = 0.8340 +/- 0.0493 (ddof=1)
+[2026-11-04 19:25:05] [INFO] phase1_robustness: Def B: $H(\bar{p}) < 0.3 \ln K$               (T=2000) -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:25:13] [INFO] phase1_robustness: Standard: Def A & Def B                       (T=500)  -> delta* = 0.8340 +/- 0.0493 (ddof=1)
+[2026-11-04 19:25:28] [INFO] phase1_robustness: Standard: Def A & Def B                       (T=2000) -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:25:36] [INFO] phase1_robustness: Def C: $H(\bar{p}) < 0.1 \ln K$               (T=500)  -> delta* = 2.7012 +/- 0.1594 (ddof=1)
+[2026-11-04 19:25:56] [INFO] phase1_robustness: Def C: $H(\bar{p}) < 0.1 \ln K$               (T=2000) -> delta* = 0.0020 +/- 0.0000 (ddof=1)
+[2026-11-04 19:25:56] [INFO] phase1_robustness: Saved definition robustness plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_definition_robustness.png
+[2026-11-04 19:25:56] [INFO] phase1_robustness: Saved robustness summary JSON to: d:\mlproject\entropy-collapse-tta\results\logs\phase1_robustness_summary.json
+[2026-11-04 19:25:56] [INFO] phase1_robustness: All robustness checks completed successfully!

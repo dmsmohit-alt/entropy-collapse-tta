@@ -1,0 +1,45 @@
+[2026-11-04 13:20:46] [INFO] phase1_theory: Starting Phase 1 Toy Model Experiments...
+[2026-11-04 13:20:48] [INFO] phase1_theory: Generating Gaussian mixture: K=3, dim=2, separation=2.0
+[2026-11-04 13:20:48] [INFO] phase1_theory: Simulating dynamics for deltas: [0.0, 0.2, 0.5, 0.8, 1.2, 1.8, 2.5]
+[2026-11-04 13:20:54] [INFO] phase1_theory: delta= 0.0 | Collapsed=False | Final H(p_bar)=1.0985 | Final Top Frac=0.3367 | Collapse Step=None
+[2026-11-04 13:20:57] [INFO] phase1_theory: delta= 0.2 | Collapsed=False | Final H(p_bar)=1.0985 | Final Top Frac=0.3373 | Collapse Step=None
+[2026-11-04 13:20:59] [INFO] phase1_theory: delta= 0.5 | Collapsed=False | Final H(p_bar)=1.0984 | Final Top Frac=0.3440 | Collapse Step=None
+[2026-11-04 13:21:01] [INFO] phase1_theory: delta= 0.8 | Collapsed=False | Final H(p_bar)=1.0982 | Final Top Frac=0.3467 | Collapse Step=None
+[2026-11-04 13:21:03] [INFO] phase1_theory: delta= 1.2 | Collapsed=False | Final H(p_bar)=1.0978 | Final Top Frac=0.3507 | Collapse Step=None
+[2026-11-04 13:21:04] [INFO] phase1_theory: delta= 1.8 | Collapsed=False | Final H(p_bar)=1.0969 | Final Top Frac=0.3573 | Collapse Step=None
+[2026-11-04 13:21:06] [INFO] phase1_theory: delta= 2.5 | Collapsed=False | Final H(p_bar)=1.0953 | Final Top Frac=0.3673 | Collapse Step=None
+[2026-11-04 13:21:08] [INFO] phase1_theory: Saved trajectory plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_h_pbar_trajectories.png
+[2026-11-04 13:21:08] [INFO] phase1_theory: Saved bias dynamics plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_bias_dynamics.png
+[2026-11-04 13:21:08] [INFO] phase1_theory: Estimating critical delta* via bisection across seeds: [42, 43, 44, 45, 46]
+[2026-11-04 13:21:30] [INFO] phase1_theory: Seed 42 -> Critical delta* = 3.4996
+[2026-11-04 13:21:50] [INFO] phase1_theory: Seed 43 -> Critical delta* = 3.4996
+[2026-11-04 13:22:13] [INFO] phase1_theory: Seed 44 -> Critical delta* = 3.4996
+[2026-11-04 13:23:00] [INFO] phase1_theory: Seed 45 -> Critical delta* = 3.4996
+[2026-11-04 13:23:52] [INFO] phase1_theory: Seed 46 -> Critical delta* = 3.4996
+[2026-11-04 13:23:52] [INFO] phase1_theory: Critical delta* estimate: 3.4996 +/- 0.0000
+[2026-11-04 13:23:52] [INFO] phase1_theory: Running fine 1D basin sweep over 61 delta points...
+[2026-11-04 13:28:34] [INFO] phase1_theory: Starting Phase 1 Toy Model Experiments...
+[2026-11-04 13:28:35] [INFO] phase1_theory: Generating Gaussian mixture: K=3, dim=2, separation=1.0, scale=1.0
+[2026-11-04 13:28:35] [INFO] phase1_theory: Simulating dynamics for deltas: [0.0, 0.3, 0.6, 0.9, 1.2, 1.8, 2.5]
+[2026-11-04 13:28:38] [INFO] phase1_theory: delta= 0.0 | Collapsed=False | Final H(p_bar)=1.0983 | Final Top Frac=0.3525 | Collapse Step=None
+[2026-11-04 13:28:39] [INFO] phase1_theory: delta= 0.3 | Collapsed=False | Final H(p_bar)=0.9754 | Final Top Frac=0.6400 | Collapse Step=None
+[2026-11-04 13:28:40] [INFO] phase1_theory: delta= 0.6 | Collapsed=False | Final H(p_bar)=0.6771 | Final Top Frac=0.8700 | Collapse Step=None
+[2026-11-04 13:28:41] [INFO] phase1_theory: delta= 0.9 | Collapsed=False | Final H(p_bar)=0.4483 | Final Top Frac=0.9583 | Collapse Step=None
+[2026-11-04 13:28:42] [INFO] phase1_theory: delta= 1.2 | Collapsed=True  | Final H(p_bar)=0.3227 | Final Top Frac=0.9867 | Collapse Step=395
+[2026-11-04 13:28:43] [INFO] phase1_theory: delta= 1.8 | Collapsed=True  | Final H(p_bar)=0.2083 | Final Top Frac=0.9950 | Collapse Step=300
+[2026-11-04 13:28:44] [INFO] phase1_theory: delta= 2.5 | Collapsed=True  | Final H(p_bar)=0.1514 | Final Top Frac=0.9983 | Collapse Step=220
+[2026-11-04 13:28:45] [INFO] phase1_theory: Saved trajectory plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_h_pbar_trajectories.png
+[2026-11-04 13:28:46] [INFO] phase1_theory: Saved bias dynamics plot to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_bias_dynamics.png
+[2026-11-04 13:28:46] [INFO] phase1_theory: Estimating critical delta* via bisection across seeds: [42, 43, 44, 45, 46]
+[2026-11-04 13:28:57] [INFO] phase1_theory: Seed 42 -> Critical delta* = 1.1777
+[2026-11-04 13:29:07] [INFO] phase1_theory: Seed 43 -> Critical delta* = 1.2754
+[2026-11-04 13:29:17] [INFO] phase1_theory: Seed 44 -> Critical delta* = 1.2520
+[2026-11-04 13:29:28] [INFO] phase1_theory: Seed 45 -> Critical delta* = 1.3418
+[2026-11-04 13:29:38] [INFO] phase1_theory: Seed 46 -> Critical delta* = 1.2598
+[2026-11-04 13:29:38] [INFO] phase1_theory: Critical delta* estimate: 1.2613 +/- 0.0524
+[2026-11-04 13:29:38] [INFO] phase1_theory: Running fine 1D basin sweep over 31 delta points...
+[2026-11-04 13:30:09] [INFO] phase1_theory: Saved 1D basin curve to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_basin_1d.png
+[2026-11-04 13:30:09] [INFO] phase1_theory: Computing 2D phase diagram over 8x10 points...
+[2026-11-04 13:31:00] [INFO] phase1_theory: Saved 2D phase diagram to: d:\mlproject\entropy-collapse-tta\results\figures\phase1_basin_phase_diagram_2d.png
+[2026-11-04 13:31:00] [INFO] phase1_theory: Saved summary JSON to: d:\mlproject\entropy-collapse-tta\results\logs\phase1_summary.json
+[2026-11-04 13:31:00] [INFO] phase1_theory: Phase 1 experiments completed successfully!

@@ -1,0 +1,133 @@
+Metadata-Version: 2.4
+Name: entropy-collapse-tta
+Version: 0.1.0
+Summary: Dynamical analysis and stable updates for test-time entropy minimisation collapse under continual shift.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision>=0.15.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scipy>=1.10.0
+Requires-Dist: matplotlib>=3.7.0
+Requires-Dist: seaborn>=0.12.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: pytest>=7.4.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Provides-Extra: robustbench
+Requires-Dist: robustbench; extra == "robustbench"
+Requires-Dist: imagecorruptions; extra == "robustbench"
+Provides-Extra: demo
+Requires-Dist: streamlit>=1.25.0; extra == "demo"
+
+# When Does Entropy Minimisation at Test Time Collapse?
+### *A Dynamical Analysis with Stable Updates for Continual Shift*
+
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
+[![PyTorch 2.5](https://img.shields.io/badge/pytorch-2.5%2Bcu121-red.svg)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+---
+
+## Abstract
+Test-Time Adaptation (TTA) algorithms such as TENT adapt neural networks on unlabeled streaming test data by minimizing sample prediction entropy $\mathbb{E}_x[H(p_\theta(\cdot|x))]$. While effective on short isolated batches, under continual or changing distribution shifts, entropy minimisation suffers from catastrophic collapse: the model maps every test input to the same arbitrary class.
+
+This project delivers:
+1. **A Dynamical Analysis**: Mathematical and numerical characterization of the "rich-get-richer" gradient dynamics on a tractable Gaussian mixture linear-softmax model.
+2. **Basin of Attraction Mapping**: Mapping the threshold of initial prediction bias separating stability from single-class collapse.
+3. **Information-Theoretic Stabilization**: Proving that marginal entropy regularisation $-\lambda H(\bar{p})$ restores asymptotic stability around the uniform-marginal fixed point, with a computable maximum stable step size $\eta^*$.
+4. **Empirical Validation**: Benchmarking on long continual streams of CIFAR-10-C (15 corruptions, severity 5) across multiple seeds.
+
+---
+
+## Project Structure
+```text
+entropy-collapse-tta/
+├── README.md               # Main project overview & benchmark results
+├── THEORY.md               # Full mathematical derivations and proofs
+├── LEARNING_NOTES.md       # Student learning companion & intuitive explanations
+├── requirements.txt        # Pinned dependencies
+├── pyproject.toml          # Package build configuration
+├── configs/                # Experiment configuration YAMLs
+│   ├── default.yaml        # Default streaming experiment config
+│   └── theory_toy.yaml     # Theoretical toy simulation config
+├── src/
+│   ├── metrics/            # Numerically stable entropy, IM loss, collapse detectors
+│   ├── utils/              # Seeding, multi-stream logging, config parsing
+│   ├── theory/             # Toy model simulation, gradient flow, Jacobian
+│   ├── data/               # CIFAR-10-C streaming loader & synthetic data generator
+│   ├── models/             # RobustBench model wrappers & BN parameter filtering
+│   └── tta/                # Adaptation methods: Source, TENT, TENT-IM, RDumb
+├── scripts/                # Entry-point execution scripts
+├── results/                # Run logs, CSVs, and generated figures
+└── tests/                  # Unit test suite
+```
+
+---
+
+## Results Tracker
+
+> **Scientific Integrity Notice**: In accordance with our research guidelines, numbers below reflect real runs from saved logs. Unexecuted experiments remain marked as `TBD`.
+
+### 1. Theory Track: Basin Boundary & Stability Limit
+
+| Metric / Parameter | Theoretical Prediction | Numerical Value (Simulation) | Status |
+| :--- | :--- | :--- | :--- |
+| Collapse Threshold Bias ($b_0^*$) | Derived in Phase 2 | TBD | Phase 1 |
+| Critical Step Size $\eta^*$ | $\frac{2}{\lambda_{\max}(J_{\text{IM}})}$ | TBD | Phase 2 |
+| Eigenvalues of $-J_{\text{IM}}$ at $b^*$ | $< 0$ (all negative) | TBD | Phase 2 |
+
+### 2. Empirical Benchmark: Continual CIFAR-10-C Stream (3 Cycles, 15 Corruptions, Sev 5)
+
+| Method | Mean Online Error (%) | Mean Final Accuracy (%) | Collapsed? | Mean Time-to-Collapse (steps) | Runs / Seeds |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Source (No Adapt)** | TBD | TBD | No | N/A | TBD |
+| **TENT (Wang et al.)** | TBD | TBD | TBD | TBD | TBD |
+| **TENT + IM ($\lambda=1.0$, $\eta < \eta^*$)** | TBD | TBD | TBD | TBD | TBD |
+| **RDumb (Periodic Reset)** | TBD | TBD | TBD | TBD | TBD |
+
+---
+
+## Installation & Environment
+
+### Prerequisites
+- Python 3.10+ (Python 3.11 recommended)
+- NVIDIA GPU with CUDA support (or CPU mode for toy simulations)
+
+### Setup
+```bash
+# Clone and enter repo
+cd entropy-collapse-tta
+
+# Create virtual environment
+uv venv .venv --python 3.11
+# Or using standard python:
+# python -m venv .venv
+
+# Activate environment (Windows PowerShell)
+.\.venv\Scripts\Activate.ps1
+# (Linux/macOS: source .venv/bin/activate)
+
+# Install dependencies
+uv pip install -r requirements.txt
+```
+
+### Running Unit Tests
+```bash
+pytest tests/ -v
+```
+
+---
+
+## Roadmap & Execution Phases
+- [x] **Phase 0**: Repository scaffold, config system, seeding, structured logging, and unit-tested information metrics.
+- [ ] **Phase 1**: Toy model simulation, gradient descent flow, collapse reproduction, and basin boundary mapping.
+- [ ] **Phase 2**: Analytical derivation of $\dot{b}$, Jacobian computation, eigenvalue verification, and $\eta^*$ evaluation.
+- [ ] **Phase 3**: Continual CIFAR-10-C streaming pipeline, Source & TENT baselines, and empirical collapse logging.
+- [ ] **Phase 4**: Stable Information-Maximisation (TENT-IM) and RDumb implementation under identical streams.
+- [ ] **Phase 5**: Multi-seed analysis, phase diagrams, ablation studies, and publication-ready figures.
+- [ ] **Phase 6**: Interactive Streamlit demonstration.
+- [ ] **Phase 7**: Comprehensive technical documentation and interview guide (`INTERVIEW_QA.md`).

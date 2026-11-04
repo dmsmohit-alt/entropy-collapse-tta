@@ -51,7 +51,9 @@ entropy-collapse-tta/
 
 | Metric / Parameter | Theoretical Prediction | Numerical Value (Simulation) | Status |
 | :--- | :--- | :--- | :--- |
-| Collapse Threshold Bias ($b_0^*$) | Derived in Phase 2 | TBD | Phase 1 |
+| Finite-Horizon Critical Bias $\delta^*(T=500)$ | Metastable boundary | $0.8340 \pm 0.0493$ (`ddof=1`, 5 seeds) | **Completed (Phase 1)** |
+| Asymptotic Critical Bias $\delta^*(T \to \infty)$ | $0.0$ (unstable fixed point) | $0.0020 \pm 0.0000$ (drifts to $0$ by $T=2000$) | **Completed (Phase 1)** |
+| Continuous Flow-Time Invariance | Invariant for fixed $T_{\text{flow}} = \eta \cdot N$ | Verified across $\eta \in [0.01, 0.20]$ ($\delta^* \approx 0.834$) | **Completed (Phase 1)** |
 | Critical Step Size $\eta^*$ | $\frac{2}{\lambda_{\max}(J_{\text{IM}})}$ | TBD | Phase 2 |
 | Eigenvalues of $-J_{\text{IM}}$ at $b^*$ | $< 0$ (all negative) | TBD | Phase 2 |
 

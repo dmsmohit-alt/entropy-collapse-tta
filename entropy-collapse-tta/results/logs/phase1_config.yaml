@@ -1,0 +1,50 @@
+experiment:
+  name: theory_toy_gradient_flow
+  seed: 42
+  device: cpu
+  output_dir: results
+model:
+  type: linear_softmax
+  num_classes: 3
+  dim: 2
+  trainable_params: bias_only
+  weight_scale: 1.0
+data:
+  num_samples_per_class: 400
+  class_means_radius: 1.0
+  cluster_std: 1.0
+  balanced: true
+dynamics:
+  learning_rate: 0.05
+  num_steps: 400
+  deltas_to_test:
+  - 0.0
+  - 0.3
+  - 0.6
+  - 0.9
+  - 1.2
+  - 1.8
+  - 2.5
+  seeds:
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  bisection:
+    delta_low: 0.0
+    delta_high: 4.0
+    tol: 0.005
+    max_iter: 14
+  sweep_1d:
+    min_delta: 0.0
+    max_delta: 3.0
+    num_points: 31
+  phase_diagram_2d:
+    min_sep: 0.6
+    max_sep: 2.0
+    num_sep: 8
+    min_delta: 0.0
+    max_delta: 3.0
+    num_delta: 10
+    steps: 300

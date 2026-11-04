@@ -1,0 +1,239 @@
+{
+  "experiment": "phase1_robustness_suite",
+  "horizon_sensitivity": {
+    "500": {
+      "mean": 0.834,
+      "std_ddof1": 0.0493,
+      "flow_time": 25.0,
+      "per_seed": [
+        0.7637,
+        0.8418,
+        0.8613,
+        0.8926,
+        0.8105
+      ]
+    },
+    "2000": {
+      "mean": 0.002,
+      "std_ddof1": 0.0,
+      "flow_time": 100.0,
+      "per_seed": [
+        0.002,
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ]
+    },
+    "10000": {
+      "mean": 0.002,
+      "std_ddof1": 0.0,
+      "flow_time": 500.0,
+      "per_seed": [
+        0.002,
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ]
+    },
+    "50000": {
+      "mean": 0.002,
+      "std_ddof1": 0.0,
+      "flow_time": 2500.0,
+      "per_seed": [
+        0.002,
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ]
+    }
+  },
+  "flow_time_check": {
+    "25.0": {
+      "0.01": {
+        "steps": 2500,
+        "mean": 0.8324,
+        "std_ddof1": 0.0487
+      },
+      "0.05": {
+        "steps": 500,
+        "mean": 0.834,
+        "std_ddof1": 0.0493
+      },
+      "0.2": {
+        "steps": 125,
+        "mean": 0.8387,
+        "std_ddof1": 0.0505
+      }
+    },
+    "100.0": {
+      "0.01": {
+        "steps": 10000,
+        "mean": 0.002,
+        "std_ddof1": 0.0
+      },
+      "0.05": {
+        "steps": 2000,
+        "mean": 0.002,
+        "std_ddof1": 0.0
+      },
+      "0.2": {
+        "steps": 500,
+        "mean": 0.002,
+        "std_ddof1": 0.0
+      }
+    }
+  },
+  "convergence_check": {
+    "0.0": {
+      "final_grad_norm": "2.3249e-03",
+      "is_collapsed": true,
+      "final_h_pbar": 0.0026,
+      "final_top_fraction": 1.0,
+      "collapse_step": 1400
+    },
+    "0.3": {
+      "final_grad_norm": "2.1536e-03",
+      "is_collapsed": true,
+      "final_h_pbar": 0.0024,
+      "final_top_fraction": 1.0,
+      "collapse_step": 750
+    },
+    "0.6": {
+      "final_grad_norm": "2.1145e-03",
+      "is_collapsed": true,
+      "final_h_pbar": 0.0024,
+      "final_top_fraction": 1.0,
+      "collapse_step": 600
+    },
+    "0.9": {
+      "final_grad_norm": "2.0924e-03",
+      "is_collapsed": true,
+      "final_h_pbar": 0.0024,
+      "final_top_fraction": 1.0,
+      "collapse_step": 500
+    },
+    "1.2": {
+      "final_grad_norm": "2.0770e-03",
+      "is_collapsed": true,
+      "final_h_pbar": 0.0023,
+      "final_top_fraction": 1.0,
+      "collapse_step": 400
+    },
+    "1.8": {
+      "final_grad_norm": "2.0557e-03",
+      "is_collapsed": true,
+      "final_h_pbar": 0.0023,
+      "final_top_fraction": 1.0,
+      "collapse_step": 300
+    }
+  },
+  "definition_robustness_T500": {
+    "def_a": {
+      "label": "Def A: Top-Class $\\ge 0.90$",
+      "mean": 0.4816,
+      "std_ddof1": 0.0544,
+      "per_seed": [
+        0.4238,
+        0.498,
+        0.5488,
+        0.5098,
+        0.4277
+      ]
+    },
+    "def_b": {
+      "label": "Def B: $H(\\bar{p}) < 0.3 \\ln K$",
+      "mean": 0.834,
+      "std_ddof1": 0.0493,
+      "per_seed": [
+        0.7637,
+        0.8418,
+        0.8613,
+        0.8926,
+        0.8105
+      ]
+    },
+    "standard": {
+      "label": "Standard: Def A & Def B",
+      "mean": 0.834,
+      "std_ddof1": 0.0493,
+      "per_seed": [
+        0.7637,
+        0.8418,
+        0.8613,
+        0.8926,
+        0.8105
+      ]
+    },
+    "def_c": {
+      "label": "Def C: $H(\\bar{p}) < 0.1 \\ln K$",
+      "mean": 2.7012,
+      "std_ddof1": 0.1594,
+      "per_seed": [
+        2.4629,
+        2.6816,
+        2.7402,
+        2.9082,
+        2.7129
+      ]
+    }
+  },
+  "definition_robustness_T2000": {
+    "def_a": {
+      "label": "Def A: Top-Class $\\ge 0.90$",
+      "mean": 0.002,
+      "std_ddof1": 0.0,
+      "per_seed": [
+        0.002,
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ]
+    },
+    "def_b": {
+      "label": "Def B: $H(\\bar{p}) < 0.3 \\ln K$",
+      "mean": 0.002,
+      "std_ddof1": 0.0,
+      "per_seed": [
+        0.002,
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ]
+    },
+    "standard": {
+      "label": "Standard: Def A & Def B",
+      "mean": 0.002,
+      "std_ddof1": 0.0,
+      "per_seed": [
+        0.002,
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ]
+    },
+    "def_c": {
+      "label": "Def C: $H(\\bar{p}) < 0.1 \\ln K$",
+      "mean": 0.002,
+      "std_ddof1": 0.0,
+      "per_seed": [
+        0.002,
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ]
+    }
+  },
+  "saved_figures": [
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_horizon_sensitivity.png",
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_flow_time_check.png",
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_gradient_norm_convergence.png",
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_definition_robustness.png"
+  ]
+}

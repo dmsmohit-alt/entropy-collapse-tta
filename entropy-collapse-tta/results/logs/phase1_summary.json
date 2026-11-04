@@ -1,0 +1,40 @@
+{
+  "experiment": "phase1_toy_model",
+  "num_classes": 3,
+  "dim": 2,
+  "separation": 1.0,
+  "noise_std": 1.0,
+  "learning_rate": 0.05,
+  "num_steps": 400,
+  "deltas_tested": [
+    0.0,
+    0.3,
+    0.6,
+    0.9,
+    1.2,
+    1.8,
+    2.5
+  ],
+  "seeds_tested": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "critical_deltas_per_seed": {
+    "42": 1.1777,
+    "43": 1.2754,
+    "44": 1.252,
+    "45": 1.3418,
+    "46": 1.2598
+  },
+  "critical_delta_mean": 1.2613,
+  "critical_delta_std": 0.0524,
+  "saved_figures": [
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_h_pbar_trajectories.png",
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_bias_dynamics.png",
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_basin_1d.png",
+    "d:\\mlproject\\entropy-collapse-tta\\results\\figures\\phase1_basin_phase_diagram_2d.png"
+  ]
+}
